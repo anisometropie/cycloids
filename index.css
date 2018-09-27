@@ -1,0 +1,72 @@
+body
+{
+	color: white;
+	background-color: #5A58EE;
+	display: flex;
+	flex-direction: row;
+   justify-content: start;
+}
+
+a
+{
+	color: #D1F452;
+}
+
+#canvasZone
+{
+
+}
+
+#optionsZone
+{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+	.circlefeatures
+	{
+		display: flex;
+		flex-direction: column;
+		border: white solid 2px;
+		padding: 10px;
+		margin: 2px;
+		text-align: center;
+	}
+		.spanButtons		/* + − buttons */
+		{
+			margin-top: 5px;
+		}
+		
+		.title
+		{
+			display: inline;
+			text-align: center;
+			
+		}
+
+		.checkBox 			/* drawing checkbox */
+		{
+			margin-left: 3px;
+			text-align: left;
+		}
+		.feature
+		{
+			display: inline;
+			margin-left: 3px;
+			width: 100%;
+			/*background-color: black;*/
+		}
+		
+			.input
+			{
+				margin-left: 5px;
+				margin-right: 5px;
+				padding: 3px;
+				width: 24px;
+			}
+			
+			.slider
+			{
+				width: 55%;
+			}
